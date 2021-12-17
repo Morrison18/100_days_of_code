@@ -19,7 +19,7 @@ elif size == "L" or size == "l":
 
     if add_pepperoni == "y" or add_pepperoni == "Y" or add_pepperoni == "yes" or add_pepperoni == "Yes" and size == "small":
         pizza += 2
-    elif add_pepperoni == "y" or add_pepperoni == "Y" or add_pepperoni == "yes" or add_pepperoni == "Yes" and size == "medium" or size == "large":
+    else:
         pizza += 3
     if extra_cheese == "y" or extra_cheese == "yes" or extra_cheese == "Y" or extra_cheese == "Yes":
         pizza += 1
