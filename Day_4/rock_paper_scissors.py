@@ -39,11 +39,11 @@ pick = random.randint(0, 2)
 CPU = CPU[pick]
 play_again = False
 
-if player == "rock":
+if player == "r":
     player = rock
-elif player == "scissors":
+elif player == "s":
     player = scissors
-elif player == "paper":
+elif player == "p":
     player = paper
 else:
     print("Try Again")
